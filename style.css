@@ -118,7 +118,13 @@ nav img {
         height: auto; /* Mantém a proporção da imagem */
     }
 }
-
+@media(max-width: 430px){
+    #textos {
+        padding-right: 0px;
+        text-align: left; /* Garante que o texto fique alinhado à esquerda */
+        width: 100%;
+    }
+}
 @media (max-width: 360px) {
     #textos {
         padding-right: 0px;
@@ -126,3 +132,4 @@ nav img {
         width: 100%;
     }
 }
+
