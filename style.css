@@ -1,0 +1,78 @@
+/* Remover margens do corpo */
+body {
+    margin: 0;
+}
+
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #210348;
+}
+
+/* Estilos para o menu de navegação */
+.itens-nav {
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    /* Alinha os itens da lista horizontalmente */
+    justify-content: space-between;
+    /* Espaça uniformemente os itens */
+    align-items: center;
+    /* Alinha verticalmente os itens */
+}
+
+/* Estilos para os links */
+.itens a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    /* Adiciona um pouco de espaço ao redor dos links */
+    font-size: 16px;
+    background-color: transparent;
+    /* Defina a cor de fundo inicial */
+    transition: background-color 0.7s ease;
+    /* Transição suave de 1.5 segundos */
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+/* Estilos para as imagens no menu */
+nav img {
+    width: 32px;
+    height: 32px;
+}
+
+.itens a:hover {
+    background-color: #F57806;
+    border-radius: 2px;
+    border-bottom: 2px solid white;
+}
+
+#banner {
+    padding: 0px;
+}
+
+#banner img {
+    width: 100%;
+    /* Faz a imagem ocupar 100% da largura do contêiner */
+    height: auto;
+    /* Mantém a proporção da altura */
+}
+
+#imagem1{
+    display: inline-block;
+    margin-top: 30px;
+    
+}
+.titulo{
+    float: right;
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: #060031;
+    text-shadow: 0px 2px 3px rgba(69, 69, 70, 0.8);
+    /*text-shadow: 0px (eixo x) 5px (eixo y) 3px #060031;*/
+}
+
