@@ -9,6 +9,7 @@ nav {
     background-color: #210348;
 }
 
+
 /* Estilos para o menu de navegação */
 .itens-nav {
     padding: 10px;
@@ -61,13 +62,14 @@ nav img {
     /* Mantém a proporção da altura */
 }
 
-#imagem1{
-    display: inline-block;
-    margin-top: 30px;
-    
+
+#imagem1 img {
+    border: 2px solid blue;
+    max-width: 100%; /* Faz a imagem não ultrapassar a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
 }
+
 .titulo{
-    float: right;
     font-weight: bold;
     font-size: 36px;
     font-family: "M PLUS Rounded 1c", sans-serif;
@@ -75,4 +77,36 @@ nav img {
     text-shadow: 0px 2px 3px rgba(69, 69, 70, 0.8);
     /*text-shadow: 0px (eixo x) 5px (eixo y) 3px #060031;*/
 }
+.paragrafo{
+    font-size: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    color: #000000;
+    text-shadow: 0px 1px 3px rgba(69, 69, 70, 0.8);
+    /*text-shadow: 0px (eixo x) 5px (eixo y) 3px #060031;*/
+}
+#textos {
+    margin-top: 30px;
+    padding-right: 0px;
+    text-align: left; /* Garante que o texto fique alinhado à esquerda */
+    width: 50%;
+}
+#principal{
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+@media (max-width: 1400px) {
+    #imagem1 img { 
+        display: block; 
+        margin-left: auto; /* Centraliza a imagem */
+        margin-right: auto; /* Centraliza a imagem */
+        max-width: 100%; /* Faz a imagem não ultrapassar a largura do contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    #textos{
+        text-align: center;
+    }
+}
+
+
 
